@@ -1,2 +1,2 @@
 # hello-world
-For learning Github
+A platform for improving my coding skills
