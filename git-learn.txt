@@ -1,0 +1,12 @@
+git status  # checks the status of the file i.e. committed, modified etc. 
+git add	    # 'stage' the file - track or add changes in the file for committ 
+git commit -m "insert message here"  # changes made and added to the history log 
+git push
+
+git branch <name>   # creates a different branch; option -d deletes a branch 
+git checkout <name>   # switch to the <name> category from 'master' or another branch
+git merge <branch>  # merge changes made in <branch> to the one you checked out to
+git reset HEAD "filename.md"   # unstages a staged/committed file 
+
+git fetch <servername>  # shows all the changes made by others 
+git pull <servername>  # combined 'fetch' and 'merge' commands - implements all changes on your file 

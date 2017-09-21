@@ -1,7 +1,0 @@
-git status  # checks the status of the file i.e. committed, modified etc. 
-git add	    # 'stage' the file - track or add changes in the file for committ 
-
-git checkout 
-git commit
-git push 
-git merge 'branch'

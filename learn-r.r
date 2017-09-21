@@ -69,3 +69,24 @@ $foo
 $baz
 [1] "hello"
 
+## Workspaces and Files 
+getwd()   # tells the address of the current directory 
+setwd()   # change directory 
+dir.creat()   # create new directory
+list.files()    # lists all the files in your current directory 
+args(<functionname>)  # lists all the arguments of each function 
+file.exists("filename")   # checks whether a file is in your workding directory
+
+seq(a,b,by=c, length=d)   # sequence of numbers from a to b at increments of c OR have length d
+
+## Logical expressions 
+A | B # union, A or B
+A & B # both A and B have to be TRUE
+!A  # TRUE if A is false 
+==  # equal
+!=  # unequal
+
+paste(<vector_characters>, collapse="")
+
+c(foo=11,bar=2,norf=NA)
+cbind(<columnname>,<matrixname>)
